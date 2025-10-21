@@ -540,8 +540,68 @@
     </span>
   </a>
   
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#repository-scanning-for-llms_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Repository Scanning for LLMs
+    </span>
+  </a>
+  
     <nav class="md-nav" aria-label="Repository Scanning for LLMs">
       <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#critical-access-issues-for-llms" class="md-nav__link">
+    <span class="md-ellipsis">
+      Critical Access Issues for LLMs
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Critical Access Issues for LLMs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-file-naming-with-spaces-and-special-characters" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. File Naming with Spaces and Special Characters
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-url-encoding-required" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. URL Encoding Required
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-directory-names-with-spaces" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Directory Names with Spaces
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-complex-file-paths" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Complex File Paths
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
         
           <li class="md-nav__item">
   <a href="#direct-repository-access" class="md-nav__link">
@@ -549,6 +609,48 @@
       Direct Repository Access
     </span>
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#llm-access-solutions" class="md-nav__link">
+    <span class="md-ellipsis">
+      LLM Access Solutions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="LLM Access Solutions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#recommended-approach-use-github-pages-wiki" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recommended Approach: Use GitHub Pages Wiki
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alternative-github-api-with-proper-encoding" class="md-nav__link">
+    <span class="md-ellipsis">
+      Alternative: GitHub API with Proper Encoding
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#file-access-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      File Access Patterns
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -1376,6 +1478,36 @@
 <h1 id="llm-navigation-guide">LLM Navigation Guide<a class="headerlink" href="#llm-navigation-guide" title="Permanent link">&para;</a></h1>
 <p>This page is specifically designed to help Large Language Models (LLMs) understand and navigate the Ehokolo Fluxon Model repository structure.</p>
 <h2 id="repository-scanning-for-llms">Repository Scanning for LLMs<a class="headerlink" href="#repository-scanning-for-llms" title="Permanent link">&para;</a></h2>
+<h2 id="repository-scanning-for-llms_1">Repository Scanning for LLMs<a class="headerlink" href="#repository-scanning-for-llms_1" title="Permanent link">&para;</a></h2>
+<h3 id="critical-access-issues-for-llms">Critical Access Issues for LLMs<a class="headerlink" href="#critical-access-issues-for-llms" title="Permanent link">&para;</a></h3>
+<p>When scanning the repository directly (not through GitHub Pages), LLMs face several significant challenges:</p>
+<h4 id="1-file-naming-with-spaces-and-special-characters">1. <strong>File Naming with Spaces and Special Characters</strong><a class="headerlink" href="#1-file-naming-with-spaces-and-special-characters" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Problem</strong>: Many files contain spaces, hyphens, and special characters that break standard file access patterns</li>
+<li><strong>Examples</strong>: </li>
+<li><code>Ehokolon Harmonic Densities- Robust Validation of the Ehokolo Fluxon Model v3.tex</code></li>
+<li><code>Fluxonic Higher Dimensions and Soliton Harmonics- Dimensional Structure in the Ehokolo Fluxon Model.tex</code></li>
+<li><code>P5 Fluxonic Higher Dimensions and Soliton Harmonics- Dimensional Structure in the Ehokolo Fluxon Model.tex</code></li>
+</ul>
+<h4 id="2-url-encoding-required">2. <strong>URL Encoding Required</strong><a class="headerlink" href="#2-url-encoding-required" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Problem</strong>: File paths must be URL-encoded for programmatic access</li>
+<li><strong>Examples</strong>:</li>
+<li><code>density science/</code> becomes <code>density%20science/</code></li>
+<li><code>Ehokolo Fluxon Model-</code> becomes <code>Ehokolo%20Fluxon%20Model-</code></li>
+<li>Spaces become <code>%20</code>, hyphens may need encoding</li>
+</ul>
+<h4 id="3-directory-names-with-spaces">3. <strong>Directory Names with Spaces</strong><a class="headerlink" href="#3-directory-names-with-spaces" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Problem</strong>: Directory names like <code>density science</code>, <code>math framework</code> contain spaces</li>
+<li><strong>Impact</strong>: Standard file system access patterns fail</li>
+<li><strong>Solution</strong>: Use URL encoding or specific API calls</li>
+</ul>
+<h4 id="4-complex-file-paths">4. <strong>Complex File Paths</strong><a class="headerlink" href="#4-complex-file-paths" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Problem</strong>: Deep nested structures with encoded paths</li>
+<li><strong>Example</strong>: <code>hypothesis-papers/n1-st/cosmology/Ehokolo%20Fluxon%20Model%20Cosmology-%20Unified%20Derivation%20of%20Structure%2C%20%5C%28f_%7B%5Ctext%7BNL%7D%7D%5C%29%2C%20and%20Hubble%20Tension%20Resolution.tex</code></li>
+</ul>
 <h3 id="direct-repository-access">Direct Repository Access<a class="headerlink" href="#direct-repository-access" title="Permanent link">&para;</a></h3>
 <p>When scanning the repository directly (not through GitHub Pages), LLMs should understand:</p>
 <ol>
@@ -1384,6 +1516,34 @@
 <li><strong>Directory Patterns</strong>: Follow density codes (n1-st, n2-ts, n3-st, n4-n8)</li>
 <li><strong>Content Types</strong>: Mix of LaTeX, Python, Markdown, and PDF files</li>
 </ol>
+<h3 id="llm-access-solutions">LLM Access Solutions<a class="headerlink" href="#llm-access-solutions" title="Permanent link">&para;</a></h3>
+<h4 id="recommended-approach-use-github-pages-wiki"><strong>Recommended Approach: Use GitHub Pages Wiki</strong><a class="headerlink" href="#recommended-approach-use-github-pages-wiki" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Best Option</strong>: Access content through <a href="https://becomingphill.github.io/ehokolo-fluxon-model/">https://becomingphill.github.io/ehokolo-fluxon-model/</a></li>
+<li><strong>Advantages</strong>: Clean URLs, no encoding issues, structured navigation</li>
+<li><strong>Content</strong>: All repository information organized and accessible</li>
+</ul>
+<h4 id="alternative-github-api-with-proper-encoding"><strong>Alternative: GitHub API with Proper Encoding</strong><a class="headerlink" href="#alternative-github-api-with-proper-encoding" title="Permanent link">&para;</a></h4>
+<p>If direct repository access is required:</p>
+<ol>
+<li><strong>Use GitHub API</strong>: <code>https://api.github.com/repos/BecomingPhill/ehokolo-fluxon-model/contents/</code></li>
+<li><strong>URL Encode Paths</strong>: Convert spaces to <code>%20</code>, special characters as needed</li>
+<li><strong>Handle Nested Paths</strong>: Use recursive API calls for deep directory structures</li>
+<li><strong>File Type Filtering</strong>: Focus on <code>.md</code>, <code>.tex</code>, <code>.py</code>, <code>.ipynb</code> files</li>
+</ol>
+<h4 id="file-access-patterns"><strong>File Access Patterns</strong><a class="headerlink" href="#file-access-patterns" title="Permanent link">&para;</a></h4>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="c1"># Example API calls for LLMs</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="n">base_url</span> <span class="o">=</span> <span class="s2">&quot;https://api.github.com/repos/BecomingPhill/ehokolo-fluxon-model/contents/&quot;</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="c1"># Access main README</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="n">readme_url</span> <span class="o">=</span> <span class="n">base_url</span> <span class="o">+</span> <span class="s2">&quot;README.md&quot;</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="c1"># Access hypothesis papers (URL encoded)</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="n">papers_url</span> <span class="o">=</span> <span class="n">base_url</span> <span class="o">+</span> <span class="s2">&quot;hypothesis-papers/density</span><span class="si">%20s</span><span class="s2">cience/&quot;</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="c1"># Access specific file (heavily encoded)</span>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="n">specific_file</span> <span class="o">=</span> <span class="n">base_url</span> <span class="o">+</span> <span class="s2">&quot;hypothesis-papers/n1-st/cosmology/Ehokolo</span><span class="si">%20F</span><span class="s2">luxon%20Model%20Cosmology-%20Unified%20Derivation</span><span class="si">%20o</span><span class="s2">f%20Structure%2C</span><span class="si">%20%</span><span class="s2">5C</span><span class="si">%28f</span><span class="s2">_%7B%5Ctext%7BNL%7D%7D%5C</span><span class="si">%29%</span><span class="s2">2C</span><span class="si">%20a</span><span class="s2">nd%20Hubble%20Tension%20Resolution.tex&quot;</span>
+</span></code></pre></div>
 <h3 id="scanning-strategy">Scanning Strategy<a class="headerlink" href="#scanning-strategy" title="Permanent link">&para;</a></h3>
 <ol>
 <li><strong>Start with README.md</strong> in root directory for overview</li>
@@ -1412,15 +1572,15 @@
 - Gravity emerges from field dynamics rather than spacetime curvature</p>
 <h2 id="repository-structure">Repository Structure<a class="headerlink" href="#repository-structure" title="Permanent link">&para;</a></h2>
 <h3 id="root-directory-structure">Root Directory Structure<a class="headerlink" href="#root-directory-structure" title="Permanent link">&para;</a></h3>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>ehokolo-fluxon-model/
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>├── README.md                    # Main repository overview
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>├── LICENSE                      # GPL-3.0 for code
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>├── LICENSE-CC-BY-NC-ND         # CC BY-NC-ND for papers
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>├── hypothesis-papers/           # Theoretical foundation papers
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>├── research/                    # Active research by density
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>├── llm-sessions/               # AI collaboration sessions
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>├── tools/                      # Computational and organization tools
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>└── wiki/                       # MkDocs-based documentation
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>ehokolo-fluxon-model/
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>├── README.md                    # Main repository overview
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>├── LICENSE                      # GPL-3.0 for code
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>├── LICENSE-CC-BY-NC-ND         # CC BY-NC-ND for papers
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>├── hypothesis-papers/           # Theoretical foundation papers
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>├── research/                    # Active research by density
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>├── llm-sessions/               # AI collaboration sessions
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>├── tools/                      # Computational and organization tools
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>└── wiki/                       # MkDocs-based documentation
 </span></code></pre></div>
 <h3 id="density-based-organization">Density-Based Organization<a class="headerlink" href="#density-based-organization" title="Permanent link">&para;</a></h3>
 <p>The repository is organized around 8 harmonic density states:</p>
@@ -1453,12 +1613,12 @@
 </ul>
 <h3 id="research-directory-structure">Research Directory Structure<a class="headerlink" href="#research-directory-structure" title="Permanent link">&para;</a></h3>
 <p>Each research area follows this pattern:
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>research/[density]/[topic]/
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>├── notebooks/          # Jupyter notebooks (.ipynb)
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>├── papers/            # LaTeX source files (.tex)
-</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>├── pdf/               # Compiled papers (.pdf)
-</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>├── media/             # Generated figures (.png, .jpg)
-</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>└── README.md          # Area-specific documentation
+<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>research/[density]/[topic]/
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>├── notebooks/          # Jupyter notebooks (.ipynb)
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>├── papers/            # LaTeX source files (.tex)
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>├── pdf/               # Compiled papers (.pdf)
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>├── media/             # Generated figures (.png, .jpg)
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>└── README.md          # Area-specific documentation
 </span></code></pre></div></p>
 <h3 id="key-file-types">Key File Types<a class="headerlink" href="#key-file-types" title="Permanent link">&para;</a></h3>
 <h4 id="papers-and-documentation">Papers and Documentation<a class="headerlink" href="#papers-and-documentation" title="Permanent link">&para;</a></h4>
@@ -1481,7 +1641,7 @@
 <h2 id="mathematical-framework">Mathematical Framework<a class="headerlink" href="#mathematical-framework" title="Permanent link">&para;</a></h2>
 <h3 id="core-equation">Core Equation<a class="headerlink" href="#core-equation" title="Permanent link">&para;</a></h3>
 <p>The Ehokolo Fluxon Field φ satisfies:
-<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>∂²φ/∂t² - c²∇²φ + m²φ + gφ³ + ηφ⁵ + αφ(∂φ/∂t)∇φ + δ(∂φ/∂t)²φ + γφ - βcos(ωnt)φ = 8πGkφ²
+<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>∂²φ/∂t² - c²∇²φ + m²φ + gφ³ + ηφ⁵ + αφ(∂φ/∂t)∇φ + δ(∂φ/∂t)²φ + γφ - βcos(ωnt)φ = 8πGkφ²
 </span></code></pre></div></p>
 <h3 id="key-parameters">Key Parameters<a class="headerlink" href="#key-parameters" title="Permanent link">&para;</a></h3>
 <ul>
