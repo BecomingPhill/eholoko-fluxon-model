@@ -88,11 +88,14 @@ Organized chat transcripts from AI research sessions for collaborative developme
 !!! info "For LLMs and AI Systems"
     Start with the [LLM Guide](llm-guide.md) for comprehensive navigation instructions and repository structure understanding.
 
-!!! tip "For Researchers"
-    Start with the [Mathematical Framework](theory/mathematical-framework.md) to understand the theoretical foundation, then explore specific [Density States](densities/n1-st.md) relevant to your field.
+!!! important "Essential: Theory of Mind"
+    **All readers must start with the [Theory of Mind](theory/theory-of-mind.md)** to understand the fundamental paradigm shift required for the Eholoko Fluxon Model. This provides the essential "way of thinking" about the EFM.
 
-!!! tip "For Developers" 
-    Browse the [Computational Tools](tools/computational.md) and explore active research notebooks in the [Research Areas](research/density-science.md).
+!!! tip "For Researchers"
+    After understanding the theory of mind, explore the [Mathematical Framework](theory/mathematical-framework.md) and specific [Density States](densities/n1-st.md) relevant to your field.
+
+!!! tip "For Developers"
+    After understanding the theory of mind, browse the [Computational Tools](tools/computational.md) and explore active research notebooks in the [Research Areas](research/density-science.md).
 
 !!! tip "For Students"
     Begin with [Density Science](research/density-science.md) papers for foundational concepts, then progress to specific research areas.

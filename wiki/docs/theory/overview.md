@@ -2,6 +2,17 @@
 
 The Ehokolo Fluxon Model (EFM) represents a comprehensive theoretical framework that attempts to unify physics through the concept of scalar motion and harmonic density states. This section provides an overview of the core theoretical principles.
 
+## Theory of Mind
+
+!!! important "Essential Reading"
+    Before diving into the mathematical details, read the [Theory of Mind](theory-of-mind.md) to understand the fundamental way of thinking about the Eholoko Fluxon Model. This provides the essential paradigm shift needed to properly understand and validate the EFM.
+
+The EFM requires a complete paradigm shift from traditional physics approaches. Understanding the "theory of mind" is crucial for:
+- Avoiding common validation pitfalls
+- Understanding the dimensionless nature of the system
+- Learning proper scaling and anchoring methods
+- Grasping the state-dependent physics framework
+
 ## Fundamental Concepts
 
 ### Scalar Motion

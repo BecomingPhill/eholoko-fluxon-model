@@ -130,6 +130,7 @@ nav:
   - LLM Guide: llm-guide.md
   - Theory:
     - Overview: theory/overview.md
+    - Theory of Mind: theory/theory-of-mind.md
     - Mathematical Framework: theory/mathematical-framework.md
     - Density States: theory/density-states.md
     - Reciprocal System Theory: theory/reciprocal-system.md
