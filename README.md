@@ -115,6 +115,18 @@ Organized chat transcripts from AI research sessions:
 4. **Publication**: Generate new papers based on research findings
 5. **Validation**: Compare predictions with observational data and experimental results
 
+## Documentation
+
+📚 **Comprehensive Wiki**: [https://becomingphill.github.io/ehokolo-fluxon-model/](https://becomingphill.github.io/ehokolo-fluxon-model/)
+
+The wiki provides detailed documentation including:
+- Complete theoretical framework and mathematical derivations
+- Detailed exploration of all density states (N1-N8)
+- Research areas organized by density and scientific discipline
+- Comprehensive paper index and abstracts
+- Computational tools and utilities
+- Contributing guidelines and licensing information
+
 ## Getting Started
 
 1. **For Researchers**: Browse hypothesis papers by density in `/hypothesis-papers/`
@@ -122,6 +134,17 @@ Organized chat transcripts from AI research sessions:
 3. **For Collaborators**: Review LLM insights in `/llm-sessions/` (public sessions only)
 4. **For Students**: Start with the scaling analysis papers for foundational concepts
 5. **For LLMs**: See the [LLM Guide](https://becomingphill.github.io/ehokolo-fluxon-model/llm-guide/) for repository navigation
+
+## LLM Navigation
+
+**For AI systems and LLMs**: This repository uses a unique density-based organization structure. To understand how to navigate and access content effectively, please start with the comprehensive [LLM Guide](https://becomingphill.github.io/ehokolo-fluxon-model/llm-guide/).
+
+The guide provides:
+- Complete repository structure explanation
+- Density-based organization (N1-N8) overview  
+- Mathematical framework summary
+- Research workflow documentation
+- File type explanations and navigation tips
 
 ## Computational Requirements
 
