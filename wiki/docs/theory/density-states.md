@@ -27,7 +27,7 @@ Where $x$ represents space, $t$ represents time, and $k$ is a constant that vari
 - Mass: Solar masses to galactic masses
 
 !!! note "Derived Scales"
-    These physical scales emerge from dimensionless simulations through the anchoring process described in the [Theory of Mind](../theory-of-mind.md). The scales are derived outputs, not inputs to the EFM.
+    These physical scales emerge from dimensionless simulations through the anchoring process described in the [Theory of Mind](theory-of-mind.md). The scales are derived outputs, not inputs to the EFM.
 
 ### N2 (T/S) - Time over Space
 **Configuration**: Temporal aspects dominate spatial aspects
@@ -44,7 +44,7 @@ Where $x$ represents space, $t$ represents time, and $k$ is a constant that vari
 - Mass: Electron masses to proton masses
 
 !!! note "Derived Scales"
-    These physical scales emerge from dimensionless simulations through the anchoring process described in the [Theory of Mind](../theory-of-mind.md). The scales are derived outputs, not inputs to the EFM.
+    These physical scales emerge from dimensionless simulations through the anchoring process described in the [Theory of Mind](theory-of-mind.md). The scales are derived outputs, not inputs to the EFM.
 
 ### N3 (S=T) - Space equals Time
 **Configuration**: Spatial and temporal aspects are balanced
@@ -61,7 +61,7 @@ Where $x$ represents space, $t$ represents time, and $k$ is a constant that vari
 - Mass: Atomic masses to molecular masses
 
 !!! note "Derived Scales"
-    These physical scales emerge from dimensionless simulations through the anchoring process described in the [Theory of Mind](../theory-of-mind.md). The scales are derived outputs, not inputs to the EFM.
+    These physical scales emerge from dimensionless simulations through the anchoring process described in the [Theory of Mind](theory-of-mind.md). The scales are derived outputs, not inputs to the EFM.
 
 ## Future Densities
 

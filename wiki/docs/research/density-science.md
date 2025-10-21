@@ -13,7 +13,7 @@ The foundational research area focusing on the mathematical framework and valida
 - **Mathematical framework**: Theoretical foundations and derivations of the dimensionless field equations
 
 !!! important "Validation Methodology"
-    All research follows the dimensionless-to-physical conversion framework described in the [Theory of Mind](../../theory/theory-of-mind.md). Results start as dimensionless simulations and are anchored to physical observations through state-dependent scaling factors.
+    All research follows the dimensionless-to-physical conversion framework described in the [Theory of Mind](../theory/theory-of-mind.md). Results start as dimensionless simulations and are anchored to physical observations through state-dependent scaling factors.
 
 ### Research Outputs
 - **Notebooks**: 3 Jupyter notebooks for simulations and analysis
