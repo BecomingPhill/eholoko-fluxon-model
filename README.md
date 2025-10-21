@@ -121,6 +121,7 @@ Organized chat transcripts from AI research sessions:
 2. **For Developers**: Explore active research and simulations in `/research/`
 3. **For Collaborators**: Review LLM insights in `/llm-sessions/` (public sessions only)
 4. **For Students**: Start with the scaling analysis papers for foundational concepts
+5. **For LLMs**: See the [LLM Guide](https://becomingphill.github.io/ehokolo-fluxon-model/llm-guide/) for repository navigation
 
 ## Computational Requirements
 
