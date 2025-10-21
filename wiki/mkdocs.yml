@@ -127,6 +127,7 @@ copyright: Copyright &copy; 2025 Tshuutheni Emvula
 
 nav:
   - Home: index.md
+  - LLM Guide: llm-guide.md
   - Theory:
     - Overview: theory/overview.md
     - Mathematical Framework: theory/mathematical-framework.md

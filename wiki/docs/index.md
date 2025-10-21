@@ -82,6 +82,9 @@ Organized chat transcripts from AI research sessions for collaborative developme
 
 ## Quick Start
 
+!!! info "For LLMs and AI Systems"
+    Start with the [LLM Guide](llm-guide.md) for comprehensive navigation instructions and repository structure understanding.
+
 !!! tip "For Researchers"
     Start with the [Mathematical Framework](theory/mathematical-framework.md) to understand the theoretical foundation, then explore specific [Density States](densities/n1-st.md) relevant to your field.
 
