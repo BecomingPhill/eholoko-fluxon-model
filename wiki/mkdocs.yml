@@ -1,0 +1,165 @@
+site_name: Ehokolo Fluxon Model Wiki
+site_description: A comprehensive research repository for the Eholoko Fluxon Model, a theory of cosmology and physics
+site_author: Tshuutheni Emvula
+site_url: https://becomingphill.github.io/ehokolo-fluxon-model
+
+repo_name: BecomingPhill/ehokolo-fluxon-model
+repo_url: https://github.com/BecomingPhill/ehokolo-fluxon-model
+edit_uri: edit/main/wiki/docs/
+
+theme:
+  name: material
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - content.footnote.tooltips
+    - content.tabs.link
+    - content.tooltips
+    - header.autohide
+    - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    - toc.integrate
+
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search:
+      lang: en
+  - mermaid2
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: BecomingPhill
+      repo: ehokolo-fluxon-model
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/BecomingPhill
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/BecomingPhill
+
+copyright: Copyright &copy; 2025 Tshuutheni Emvula
+
+nav:
+  - Home: index.md
+  - Theory:
+    - Overview: theory/overview.md
+    - Mathematical Framework: theory/mathematical-framework.md
+    - Density States: theory/density-states.md
+    - Reciprocal System Theory: theory/reciprocal-system.md
+  - Densities:
+    - N1 (S/T) - Space over Time: densities/n1-st.md
+    - N2 (T/S) - Time over Space: densities/n2-ts.md
+    - N3 (S=T) - Space equals Time: densities/n3-st.md
+    - N4-N8 - Future Densities: densities/n4-n8.md
+  - Research Areas:
+    - Density Science: research/density-science.md
+    - N1 Research:
+      - Cosmology: research/n1-st/cosmology.md
+      - Astrophysics: research/n1-st/astrophysics.md
+      - Gravitational Physics: research/n1-st/gravitational.md
+    - N2 Research:
+      - Quantum Mechanics: research/n2-ts/quantum.md
+      - Particle Physics: research/n2-ts/particle-physics.md
+    - N3 Research:
+      - Electromagnetic: research/n3-st/electromagnetic.md
+      - Atomic Structure: research/n3-st/atomic-structure.md
+      - Chemistry: research/n3-st/chemistry.md
+      - Biology: research/n3-st/biology.md
+  - Papers:
+    - Hypothesis Papers: papers/hypothesis-papers.md
+    - Research Papers: papers/research-papers.md
+    - Paper Index: papers/index.md
+  - Tools:
+    - Computational Tools: tools/computational.md
+    - Research Organization: tools/research-organization.md
+    - Utilities: tools/utilities.md
+  - Collaboration:
+    - Contributing: collaboration/contributing.md
+    - Research Workflow: collaboration/workflow.md
+    - Licensing: collaboration/licensing.md
