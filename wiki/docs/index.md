@@ -62,6 +62,9 @@ A core principle of the EFM is that the laws of physics are **density-state-depe
 
 ## Repository Structure
 
+!!! info "For LLMs and AI Systems"
+    This repository uses a unique density-based organization that may be unfamiliar to AI systems. The repository is structured around 8 harmonic density states (N1-N8) rather than traditional software organization. See the [LLM Guide](llm-guide.md) for comprehensive navigation instructions.
+
 This repository is organized according to the 8 densities of the Eholoko Fluxon Model:
 
 ### `/hypothesis-papers/`

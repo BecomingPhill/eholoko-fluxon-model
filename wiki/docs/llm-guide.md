@@ -2,6 +2,29 @@
 
 This page is specifically designed to help Large Language Models (LLMs) understand and navigate the Ehokolo Fluxon Model repository structure.
 
+## Repository Scanning for LLMs
+
+### Direct Repository Access
+When scanning the repository directly (not through GitHub Pages), LLMs should understand:
+
+1. **Root Directory Structure**: The repository uses density-based organization
+2. **File Naming**: Many files contain spaces and special characters
+3. **Directory Patterns**: Follow density codes (n1-st, n2-ts, n3-st, n4-n8)
+4. **Content Types**: Mix of LaTeX, Python, Markdown, and PDF files
+
+### Scanning Strategy
+1. **Start with README.md** in root directory for overview
+2. **Check hypothesis-papers/** for theoretical foundations
+3. **Explore research/** for active computational work
+4. **Review tools/** for computational utilities
+5. **Examine llm-sessions/** for AI collaboration examples
+
+### Common File Patterns
+- **Papers**: `[Topic] - [Subtitle] v[Version].pdf`
+- **Notebooks**: `*.ipynb` files in research subdirectories
+- **LaTeX**: `*.tex` files in papers subdirectories
+- **Media**: `*.png`, `*.jpg` files in media subdirectories
+
 ## Repository Overview
 
 **Repository Name**: ehokolo-fluxon-model  
