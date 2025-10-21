@@ -4,6 +4,35 @@ This page is specifically designed to help Large Language Models (LLMs) understa
 
 ## Repository Scanning for LLMs
 
+## Repository Scanning for LLMs
+
+### Critical Access Issues for LLMs
+
+When scanning the repository directly (not through GitHub Pages), LLMs face several significant challenges:
+
+#### 1. **File Naming with Spaces and Special Characters**
+- **Problem**: Many files contain spaces, hyphens, and special characters that break standard file access patterns
+- **Examples**: 
+  - `Ehokolon Harmonic Densities- Robust Validation of the Ehokolo Fluxon Model v3.tex`
+  - `Fluxonic Higher Dimensions and Soliton Harmonics- Dimensional Structure in the Ehokolo Fluxon Model.tex`
+  - `P5 Fluxonic Higher Dimensions and Soliton Harmonics- Dimensional Structure in the Ehokolo Fluxon Model.tex`
+
+#### 2. **URL Encoding Required**
+- **Problem**: File paths must be URL-encoded for programmatic access
+- **Examples**:
+  - `density science/` becomes `density%20science/`
+  - `Ehokolo Fluxon Model-` becomes `Ehokolo%20Fluxon%20Model-`
+  - Spaces become `%20`, hyphens may need encoding
+
+#### 3. **Directory Names with Spaces**
+- **Problem**: Directory names like `density science`, `math framework` contain spaces
+- **Impact**: Standard file system access patterns fail
+- **Solution**: Use URL encoding or specific API calls
+
+#### 4. **Complex File Paths**
+- **Problem**: Deep nested structures with encoded paths
+- **Example**: `hypothesis-papers/n1-st/cosmology/Ehokolo%20Fluxon%20Model%20Cosmology-%20Unified%20Derivation%20of%20Structure%2C%20%5C%28f_%7B%5Ctext%7BNL%7D%7D%5C%29%2C%20and%20Hubble%20Tension%20Resolution.tex`
+
 ### Direct Repository Access
 When scanning the repository directly (not through GitHub Pages), LLMs should understand:
 
@@ -11,6 +40,36 @@ When scanning the repository directly (not through GitHub Pages), LLMs should un
 2. **File Naming**: Many files contain spaces and special characters
 3. **Directory Patterns**: Follow density codes (n1-st, n2-ts, n3-st, n4-n8)
 4. **Content Types**: Mix of LaTeX, Python, Markdown, and PDF files
+
+### LLM Access Solutions
+
+#### **Recommended Approach: Use GitHub Pages Wiki**
+- **Best Option**: Access content through https://becomingphill.github.io/ehokolo-fluxon-model/
+- **Advantages**: Clean URLs, no encoding issues, structured navigation
+- **Content**: All repository information organized and accessible
+
+#### **Alternative: GitHub API with Proper Encoding**
+If direct repository access is required:
+
+1. **Use GitHub API**: `https://api.github.com/repos/BecomingPhill/ehokolo-fluxon-model/contents/`
+2. **URL Encode Paths**: Convert spaces to `%20`, special characters as needed
+3. **Handle Nested Paths**: Use recursive API calls for deep directory structures
+4. **File Type Filtering**: Focus on `.md`, `.tex`, `.py`, `.ipynb` files
+
+#### **File Access Patterns**
+```python
+# Example API calls for LLMs
+base_url = "https://api.github.com/repos/BecomingPhill/ehokolo-fluxon-model/contents/"
+
+# Access main README
+readme_url = base_url + "README.md"
+
+# Access hypothesis papers (URL encoded)
+papers_url = base_url + "hypothesis-papers/density%20science/"
+
+# Access specific file (heavily encoded)
+specific_file = base_url + "hypothesis-papers/n1-st/cosmology/Ehokolo%20Fluxon%20Model%20Cosmology-%20Unified%20Derivation%20of%20Structure%2C%20%5C%28f_%7B%5Ctext%7BNL%7D%7D%5C%29%2C%20and%20Hubble%20Tension%20Resolution.tex"
+```
 
 ### Scanning Strategy
 1. **Start with README.md** in root directory for overview
