@@ -132,9 +132,9 @@ omega_n3 = 1.0e-6  # Very high frequency
 
 ## Related Sections
 
-- [N1 (S/T)](n1-st.md): Detailed exploration of N1 density
-- [N2 (T/S)](n2-ts.md): Detailed exploration of N2 density
-- [N3 (S=T)](n3-st.md): Detailed exploration of N3 density
-- [N4-N8](n4-n8.md): Future density exploration
+- [N1 (S/T)](../densities/n1-st.md): Detailed exploration of N1 density
+- [N2 (T/S)](../densities/n2-ts.md): Detailed exploration of N2 density
+- [N3 (S=T)](../densities/n3-st.md): Detailed exploration of N3 density
+- [N4-N8](../densities/n4-n8.md): Future density exploration
 - [Mathematical Framework](../theory/mathematical-framework.md): Mathematical foundations
 - [Research Areas](../research/density-science.md): Density-specific research
