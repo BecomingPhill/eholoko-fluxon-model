@@ -10,7 +10,10 @@ $$\frac{\partial^2 \phi}{\partial t^2} - c^2 \nabla^2 \phi + m^2 \phi + g \phi^3
 
 ## Parameter Definitions
 
-### Physical Parameters
+!!! important "Dimensionless Parameters"
+    All parameters below are dimensionless simulation parameters. They do not represent physical constants but rather control the dimensionless field dynamics. Physical constants emerge through the scaling and anchoring process described in the [Theory of Mind](../theory-of-mind.md).
+
+### Simulation Parameters
 
 | Parameter | Description | Units | Density Dependence |
 |-----------|-------------|-------|-------------------|

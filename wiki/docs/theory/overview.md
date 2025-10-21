@@ -31,10 +31,16 @@ The EFM extends this concept by introducing the **Ehokolo Fluxon Field** (φ), a
 
 ## Mathematical Framework
 
+!!! note "Dimensionless Nature"
+    The EFM operates as a dimensionless system. The mathematical framework below describes the field dynamics in dimensionless units. Physical constants emerge from this framework through the scaling and anchoring process described in the [Theory of Mind](theory-of-mind.md).
+
 ### Core Equation
 The dynamics of the Ehokolo Fluxon Field are governed by a modified Klein-Gordon equation:
 
 $$\frac{\partial^2 \phi}{\partial t^2} - c^2 \nabla^2 \phi + m^2 \phi + g \phi^3 + \eta \phi^5 + \alpha \phi \frac{\partial \phi}{\partial t} \nabla \phi + \delta \left(\frac{\partial \phi}{\partial t}\right)^2 \phi + \gamma \phi - \beta \cos(\omega_n t) \phi = 8\pi G k \phi^2$$
+
+!!! important "Parameter Interpretation"
+    All parameters in this equation are dimensionless simulation parameters. Physical constants (like c, G) emerge from the scaling process, not as inputs to the equation.
 
 ### Term Analysis
 

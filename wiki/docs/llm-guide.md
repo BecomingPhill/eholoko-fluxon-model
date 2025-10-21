@@ -4,8 +4,6 @@ This page is specifically designed to help Large Language Models (LLMs) understa
 
 ## Repository Scanning for LLMs
 
-## Repository Scanning for LLMs
-
 ### Critical Access Issues for LLMs
 
 When scanning the repository directly (not through GitHub Pages), LLMs face several significant challenges:

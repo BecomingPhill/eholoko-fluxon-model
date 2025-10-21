@@ -7,10 +7,13 @@ This section provides detailed information about active research areas organized
 The foundational research area focusing on the mathematical framework and validation of the Ehokolo Fluxon Model.
 
 ### Key Research Topics
-- **Harmonic density validation**: Numerical validation of density states
-- **Soliton behavior analysis**: Computational studies of ehokolon dynamics
-- **Scaling analysis**: Conversion between dimensionless and physical units
-- **Mathematical framework**: Theoretical foundations and derivations
+- **Harmonic density validation**: Numerical validation of density states using dimensionless simulations
+- **Soliton behavior analysis**: Computational studies of ehokolon dynamics in dimensionless units
+- **Scaling analysis**: Conversion between dimensionless and physical units using anchoring methodology
+- **Mathematical framework**: Theoretical foundations and derivations of the dimensionless field equations
+
+!!! important "Validation Methodology"
+    All research follows the dimensionless-to-physical conversion framework described in the [Theory of Mind](../../theory/theory-of-mind.md). Results start as dimensionless simulations and are anchored to physical observations through state-dependent scaling factors.
 
 ### Research Outputs
 - **Notebooks**: 3 Jupyter notebooks for simulations and analysis
