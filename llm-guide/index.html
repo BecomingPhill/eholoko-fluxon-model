@@ -534,6 +534,48 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#repository-scanning-for-llms" class="md-nav__link">
+    <span class="md-ellipsis">
+      Repository Scanning for LLMs
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Repository Scanning for LLMs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#direct-repository-access" class="md-nav__link">
+    <span class="md-ellipsis">
+      Direct Repository Access
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scanning-strategy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scanning Strategy
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-file-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      Common File Patterns
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#repository-overview" class="md-nav__link">
     <span class="md-ellipsis">
       Repository Overview
@@ -888,7 +930,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#common-file-patterns" class="md-nav__link">
+  <a href="#common-file-patterns_1" class="md-nav__link">
     <span class="md-ellipsis">
       Common File Patterns
     </span>
@@ -1333,6 +1375,30 @@
 
 <h1 id="llm-navigation-guide">LLM Navigation Guide<a class="headerlink" href="#llm-navigation-guide" title="Permanent link">&para;</a></h1>
 <p>This page is specifically designed to help Large Language Models (LLMs) understand and navigate the Ehokolo Fluxon Model repository structure.</p>
+<h2 id="repository-scanning-for-llms">Repository Scanning for LLMs<a class="headerlink" href="#repository-scanning-for-llms" title="Permanent link">&para;</a></h2>
+<h3 id="direct-repository-access">Direct Repository Access<a class="headerlink" href="#direct-repository-access" title="Permanent link">&para;</a></h3>
+<p>When scanning the repository directly (not through GitHub Pages), LLMs should understand:</p>
+<ol>
+<li><strong>Root Directory Structure</strong>: The repository uses density-based organization</li>
+<li><strong>File Naming</strong>: Many files contain spaces and special characters</li>
+<li><strong>Directory Patterns</strong>: Follow density codes (n1-st, n2-ts, n3-st, n4-n8)</li>
+<li><strong>Content Types</strong>: Mix of LaTeX, Python, Markdown, and PDF files</li>
+</ol>
+<h3 id="scanning-strategy">Scanning Strategy<a class="headerlink" href="#scanning-strategy" title="Permanent link">&para;</a></h3>
+<ol>
+<li><strong>Start with README.md</strong> in root directory for overview</li>
+<li><strong>Check hypothesis-papers/</strong> for theoretical foundations</li>
+<li><strong>Explore research/</strong> for active computational work</li>
+<li><strong>Review tools/</strong> for computational utilities</li>
+<li><strong>Examine llm-sessions/</strong> for AI collaboration examples</li>
+</ol>
+<h3 id="common-file-patterns">Common File Patterns<a class="headerlink" href="#common-file-patterns" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Papers</strong>: <code>[Topic] - [Subtitle] v[Version].pdf</code></li>
+<li><strong>Notebooks</strong>: <code>*.ipynb</code> files in research subdirectories</li>
+<li><strong>LaTeX</strong>: <code>*.tex</code> files in papers subdirectories</li>
+<li><strong>Media</strong>: <code>*.png</code>, <code>*.jpg</code> files in media subdirectories</li>
+</ul>
 <h2 id="repository-overview">Repository Overview<a class="headerlink" href="#repository-overview" title="Permanent link">&para;</a></h2>
 <p><strong>Repository Name</strong>: ehokolo-fluxon-model<br />
 <strong>Owner</strong>: BecomingPhill<br />
@@ -1515,7 +1581,7 @@
 <li><strong>Empirical Testing</strong>: Find comparisons with observational data</li>
 <li><strong>Future Directions</strong>: Check N4-N8 areas for unexplored possibilities</li>
 </ol>
-<h2 id="common-file-patterns">Common File Patterns<a class="headerlink" href="#common-file-patterns" title="Permanent link">&para;</a></h2>
+<h2 id="common-file-patterns_1">Common File Patterns<a class="headerlink" href="#common-file-patterns_1" title="Permanent link">&para;</a></h2>
 <h3 id="paper-naming-convention">Paper Naming Convention<a class="headerlink" href="#paper-naming-convention" title="Permanent link">&para;</a></h3>
 <ul>
 <li>Format: <code>[Topic] - [Subtitle] v[Version].[Subversion].pdf</code></li>
