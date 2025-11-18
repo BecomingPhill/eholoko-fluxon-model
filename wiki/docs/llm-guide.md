@@ -42,14 +42,14 @@ When scanning the repository directly (not through GitHub Pages), LLMs should un
 ### LLM Access Solutions
 
 #### **Recommended Approach: Use GitHub Pages Wiki**
-- **Best Option**: Access content through https://becomingphill.github.io/ehokolo-fluxon-model/
+- **Best Option**: Access content through https://becomingphill.github.io/eholoko-fluxon-model/
 - **Advantages**: Clean URLs, no encoding issues, structured navigation
 - **Content**: All repository information organized and accessible
 
 #### **Alternative: GitHub API with Proper Encoding**
 If direct repository access is required:
 
-1. **Use GitHub API**: `https://api.github.com/repos/BecomingPhill/ehokolo-fluxon-model/contents/`
+1. **Use GitHub API**: `https://api.github.com/repos/BecomingPhill/eholoko-fluxon-model/contents/`
 2. **URL Encode Paths**: Convert spaces to `%20`, special characters as needed
 3. **Handle Nested Paths**: Use recursive API calls for deep directory structures
 4. **File Type Filtering**: Focus on `.md`, `.tex`, `.py`, `.ipynb` files
@@ -57,7 +57,7 @@ If direct repository access is required:
 #### **File Access Patterns**
 ```python
 # Example API calls for LLMs
-base_url = "https://api.github.com/repos/BecomingPhill/ehokolo-fluxon-model/contents/"
+base_url = "https://api.github.com/repos/BecomingPhill/eholoko-fluxon-model/contents/"
 
 # Access main README
 readme_url = base_url + "README.md"
@@ -84,7 +84,7 @@ specific_file = base_url + "hypothesis-papers/n1-st/cosmology/Ehokolo%20Fluxon%2
 
 ## Repository Overview
 
-**Repository Name**: ehokolo-fluxon-model  
+**Repository Name**: eholoko-fluxon-model  
 **Owner**: BecomingPhill  
 **Type**: Research repository with dual licensing  
 **Main Language**: Python (computational), LaTeX (papers), Markdown (documentation)
@@ -101,7 +101,7 @@ The Ehokolo Fluxon Model (EFM) is a theoretical physics framework that proposes:
 
 ### Root Directory Structure
 ```
-ehokolo-fluxon-model/
+eholoko-fluxon-model/
 ├── README.md                    # Main repository overview
 ├── LICENSE                      # GPL-3.0 for code
 ├── LICENSE-CC-BY-NC-ND         # CC BY-NC-ND for papers

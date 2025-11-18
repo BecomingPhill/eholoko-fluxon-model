@@ -113,7 +113,7 @@ Generated figures, plots, and visualizations:
 ### Standard Citation Format
 ```
 Emvula, T. (2025). [Paper Title]. Ehokolo Fluxon Model Research Repository. 
-https://github.com/BecomingPhill/ehokolo-fluxon-model
+https://github.com/BecomingPhill/eholoko-fluxon-model
 ```
 
 ### Specific Paper Citations
@@ -122,7 +122,7 @@ For specific papers, include the version number and topic area:
 ```
 Emvula, T. (2025). The Ehokolo Fluxon Model: A Unified Paradigm Beyond General 
 Relativity, ΛCDM, and the Standard Model v3. Ehokolo Fluxon Model Research 
-Repository. https://github.com/BecomingPhill/ehokolo-fluxon-model
+Repository. https://github.com/BecomingPhill/eholoko-fluxon-model
 ```
 
 ## Paper Development

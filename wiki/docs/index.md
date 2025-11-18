@@ -112,4 +112,4 @@ See [Licensing](collaboration/licensing.md) for complete details.
 ---
 
 **Author**: Tshuutheni Emvula  
-**Repository**: [GitHub](https://github.com/BecomingPhill/ehokolo-fluxon-model)
+**Repository**: [GitHub](https://github.com/BecomingPhill/eholoko-fluxon-model)

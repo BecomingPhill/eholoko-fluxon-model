@@ -179,8 +179,8 @@ For special cases not covered by standard licenses, contact:
 
 ### License Questions
 - **Author**: Tshuutheni Emvula
-- **GitHub**: https://github.com/BecomingPhill/ehokolo-fluxon-model
-- **Repository**: https://github.com/BecomingPhill/ehokolo-fluxon-model
+- **GitHub**: https://github.com/BecomingPhill/eholoko-fluxon-model
+- **Repository**: https://github.com/BecomingPhill/eholoko-fluxon-model
 
 ### Legal Issues
 - **GitHub Issues**: Use GitHub issues for legal questions

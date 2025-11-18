@@ -1,10 +1,10 @@
 site_name: Ehokolo Fluxon Model Wiki
 site_description: A comprehensive research repository for the Eholoko Fluxon Model, a theory of cosmology and physics
 site_author: Tshuutheni Emvula
-site_url: https://becomingphill.github.io/ehokolo-fluxon-model
+site_url: https://becomingphill.github.io/eholoko-fluxon-model
 
-repo_name: BecomingPhill/ehokolo-fluxon-model
-repo_url: https://github.com/BecomingPhill/ehokolo-fluxon-model
+repo_name: BecomingPhill/eholoko-fluxon-model
+repo_url: https://github.com/BecomingPhill/eholoko-fluxon-model
 edit_uri: edit/main/wiki/docs/
 
 theme:
@@ -98,7 +98,7 @@ markdown_extensions:
       normalize_issue_symbols: true
       repo_url_shorthand: true
       user: BecomingPhill
-      repo: ehokolo-fluxon-model
+      repo: eholoko-fluxon-model
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.superfences:
@@ -119,7 +119,7 @@ markdown_extensions:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/BecomingPhill/ehokolo-fluxon-model
+      link: https://github.com/BecomingPhill/eholoko-fluxon-model
     - icon: fontawesome/brands/twitter
       link: https://x.com/i/communities/1941229655740301635
 

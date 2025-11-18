@@ -28,11 +28,11 @@ This section provides guidelines for contributing to the Ehokolo Fluxon Model re
 ```bash
 # Fork the repository on GitHub
 # Clone your fork locally
-git clone https://github.com/YOUR_USERNAME/ehokolo-fluxon-model.git
-cd ehokolo-fluxon-model
+git clone https://github.com/YOUR_USERNAME/eholoko-fluxon-model.git
+cd eholoko-fluxon-model
 
 # Add upstream remote
-git remote add upstream https://github.com/BecomingPhill/ehokolo-fluxon-model.git
+git remote add upstream https://github.com/BecomingPhill/eholoko-fluxon-model.git
 ```
 
 ### 2. Set Up Development Environment
