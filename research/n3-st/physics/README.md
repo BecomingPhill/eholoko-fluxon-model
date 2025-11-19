@@ -1,4 +1,4 @@
-# Electromagnetic
+# Physics
 
 ## Overview
 Research area derived from EFM V4: Physics
