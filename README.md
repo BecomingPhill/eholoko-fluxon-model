@@ -7,7 +7,7 @@
 A comprehensive research repository for the Eholoko Fluxon Model, a theory of cosmology and physics that proposes a eholokon (solitonic) foundation for understanding the fundamental nature of reality.
 
 **Author**: Tshuutheni Emvula  
-**Repository**: https://github.com/BecomingPhill/ehokolo-fluxon-model
+**Repository**: https://github.com/BecomingPhill/eholoko-fluxon-model
 
 ## Overview
 
@@ -117,7 +117,7 @@ Organized chat transcripts from AI research sessions:
 
 ## Documentation
 
-📚 **Comprehensive Wiki**: [https://becomingphill.github.io/ehokolo-fluxon-model/](https://becomingphill.github.io/ehokolo-fluxon-model/)
+📚 **Comprehensive Wiki**: [https://becomingphill.github.io/eholoko-fluxon-model/](https://becomingphill.github.io/eholoko-fluxon-model/)
 
 The wiki provides detailed documentation including:
 - Complete theoretical framework and mathematical derivations
@@ -133,11 +133,11 @@ The wiki provides detailed documentation including:
 2. **For Developers**: Explore active research and simulations in `/research/`
 3. **For Collaborators**: Review LLM insights in `/llm-sessions/` (public sessions only)
 4. **For Students**: Start with the scaling analysis papers for foundational concepts
-5. **For LLMs**: See the [LLM Guide](https://becomingphill.github.io/ehokolo-fluxon-model/llm-guide/) for repository navigation
+5. **For LLMs**: See the [LLM Guide](https://becomingphill.github.io/eholoko-fluxon-model/llm-guide/) for repository navigation
 
 ## LLM Navigation
 
-**For AI systems and LLMs**: This repository uses a unique density-based organization structure. To understand how to navigate and access content effectively, please start with the comprehensive [LLM Guide](https://becomingphill.github.io/ehokolo-fluxon-model/llm-guide/).
+**For AI systems and LLMs**: This repository uses a unique density-based organization structure. To understand how to navigate and access content effectively, please start with the comprehensive [LLM Guide](https://becomingphill.github.io/eholoko-fluxon-model/llm-guide/).
 
 The guide provides:
 - Complete repository structure explanation
@@ -188,11 +188,11 @@ If you use this research in your work, please cite:
 ```
 Emvula, T. (2025). Eholoko Fluxon Model: A Unified Paradigm Beyond General Relativity, 
 ΛCDM, and the Standard Model. GitHub Repository. 
-https://github.com/BecomingPhill/ehokolo-fluxon-model
+https://github.com/BecomingPhill/eholoko-fluxon-model
 ```
 
 ## Contact
 
 For research collaborations, permission requests, or questions:
 - **Author**: Tshuutheni Emvula
-- **Repository**: https://github.com/BecomingPhill/ehokolo-fluxon-model 
+- **Repository**: https://github.com/BecomingPhill/eholoko-fluxon-model 
